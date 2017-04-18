@@ -82,4 +82,26 @@ It can implement interfaces, inherit from other classes and allow inheritance.
 
 If there are bunch of functions should be kept together, then static is the choice. 
 Anything else which needs single access to some resources, could be implemented singleton.
+
+Static Class:-
+
+You cannot create the instance of static class.
+Loaded automatically by the .NET Framework common language runtime (CLR) when the program or namespace containing the class is loaded.
+Static Class cannot have constructor.
+We cannot pass the static class to method.
+We cannot inherit Static class to another Static class in C#.
+A class having all static methods.
+Better performance (static methods are bonded on compile time)
+
+Singleton:-
+
+You can create one instance of the object and reuse it.
+Singleton instance is created for the first time when the user requested.
+Singleton class can have constructor.
+You can create the object of singleton class and pass it to method.
+Singleton class does not say any restriction of Inheritance.
+We can dispose the objects of a singleton class but not of static class.
+Methods can be overridden.
+Can be lazy loaded when need (static classes are always loaded).
+We can implement interface(static class can not implement interface).
 */
